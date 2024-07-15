@@ -1,8 +1,8 @@
 /*
  * @Author: wx：laowang66608
  * @Date: 2024-01-15 13:56:23
- * @LastEditTime: 2024-01-16 15:15:26
- * @LastEditors: wx：laowang66608
+ * @LastEditTime: 2024-07-15 20:07:10
+ * @LastEditors: 19994643173 1075005842@qq.com
  * @Description:
  * @FilePath: /移动端Vue3版/h5_project
  * 代码版权方：'通用 H5框架'
@@ -20,7 +20,7 @@ function resolve(dir) {
 module.exports = defineConfig({
   transpileDependencies: true,
   // 部署应用包时的基本路径
-	publicPath: process.env.NODE_ENV === 'production' ? '/' : '/',
+	publicPath: process.env.NODE_ENV === 'production' ? '/zjmz' : '/zjmz',
   // 解决vue3搭建项目时 eslint 警告处理
   lintOnSave: false,
 	// 如果你不需要生产环境的 source map，可以将其设置为 false 以加速生产环境构建
@@ -51,7 +51,7 @@ module.exports = defineConfig({
 			.set('@utils', resolve('src/utils'))
 			.set('@api', resolve('src/api'))
 		config.plugin('html').tap(args => {
-			args[0].title = 'H5通用框架'
+			args[0].title = '中建民筑'
 			return args
 		})
   },

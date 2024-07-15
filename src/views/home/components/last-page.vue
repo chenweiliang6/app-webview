@@ -63,14 +63,14 @@ const list = ref([
     display: flex;
     align-items: center;
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     &-item {
       background: url('../../../assets/images/star-box.png') center no-repeat;
       background-size: 100% 100%;
       flex: 1;
       height: 93px;
       margin-left: 5px;
-      padding-top: 7px;
+      padding-top: 4px;
       &:first-child {
         margin-left: 0;
       }

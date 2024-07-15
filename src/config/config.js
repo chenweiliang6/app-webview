@@ -1,5 +1,5 @@
 //  项目名称
-export const APP_NAME = "H5通用框架";
+export const APP_NAME = "中建民筑";
 // 首页地址（默认）
 export const HOME_URL = "/";
 
