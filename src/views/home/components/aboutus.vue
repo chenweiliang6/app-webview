@@ -1,71 +1,94 @@
 <template>
-  <div class="guanwang">
-    <div class="guanwang-title">
-      <span class="title">关于我们</span>
-      <span class="name">中建民筑</span>
+  <div class="aboutus">
+    <div class="aboutus-left">
+      <div class="aboutus-left-title">
+        <img src="../../../assets/images/1.png">
+        <div class="aboutus-left-title__text">
+          <span>中建民筑</span>
+          <span>ZHONG JIAN MIN ZHU</span>
+        </div>
+      </div>
+      <div class="aboutus-left-content">
+        <div class="aboutus-left-content__top">关于我们</div>
+        <div class="aboutus-left-content__bottom">
+          <div class="line"></div>
+          <div class="xie-line">//////////////////</div>
+        </div>
+      </div>
     </div>
-    <div class="guanwang-tip">
-      做好房改和利民安居工作
-    </div>
-    <div class="guanwang-introduce">
-      中建民筑集团有限公司，简称“中建民筑”，正式组建于1980年，其前身为原国家建工总局，是为数不多的不占有大量的国家投资，不占有国家的自然资源和经营专利，以从事完全竞争性的建筑业和地产业为核心业务而发展壮大起来的国有重要骨干企业。
+    <div class="aboutus-right">
+      <img src="../../../assets/images/2.png">
     </div>
   </div>
 </template>
 
 <script setup>
 
-
 </script>
 
-<style scoped lang="scss">
-.guanwang {
+<style lang="scss" scoped>
+.aboutus {
   width: 100%;
   height: 211px;
-  background: url('../../../assets/images/background1.jpg') center no-repeat;
-  background-size: 100% 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  .guanwang-title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-
-    .title {
-      font-size: 18px;
-      color: transparent;
-      background-image: linear-gradient(to bottom, #fff2cc, #ffdd77);
-      background-clip: text;
+  &-left {
+    padding: 50px 0 0 20px;
+    &-title {
+      display: flex;
+      align-items: center;
+      img {
+        width: 25px;
+        height: 25px;
+      }
+      &__text {
+        padding-left: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        span {
+          font-family: fzyt;
+          color: #ab0200;
+          font-size: 15px;
+          font-weight: 600;
+          &:last-child {
+            font-size: 6px;
+          }
+        }
+      }
     }
-
-    .name {
-      font-size: 44px;
-      color: transparent;
-      background-image: linear-gradient(to bottom, #fff2cc, #ffdd77);
-      background-clip: text;
-      font-family: hwxk;
+    &-content {
+      padding-top: 20px;
+      &__top {
+        color: #da3402;
+        font-weight: 600;
+        font-size: 22px;
+      }
+      &__bottom {
+        display: flex;
+        align-items: center;
+        .line {
+          width: 110px;
+          height: 0.5px;
+          background: #ff773d;
+        }
+        .xie-line {
+          color: #ff773d;
+          font-size: 4px;
+          padding-left: 2px;
+        }
+      }
     }
   }
-
-  .guanwang-tip {
-    width: 65%;
-    padding: 5px 0;
-    border-top: 1px solid #f1d1b2;
-    border-bottom: 1px solid #f1d1b2;
-    letter-spacing: 10px;
-    font-size: 9px;
-    color: #f1d1b2;
-    text-align: center;
-  }
-  .guanwang-introduce {
-    text-align: center;
-    font-size: 6px;
-    color: #f1d1b2;
-    width: 65%;
-    padding-top: 5px;
+  &-right {
+    flex: 1;
+    height: 100%;
+    padding-left: 35px;
+    height: 155px;
+    align-self: flex-end;
+    img{
+      width: 100%;
+      height: 100%;
+    }
   }
 }
 </style>

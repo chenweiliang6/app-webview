@@ -14,6 +14,14 @@ export const listRouter = [
     meta: {
       title: '首页'
     }
+  },
+  {
+    path: '/home2',
+    name: 'home2',
+    component: () => import('../../views/home2/index.vue'),
+    meta: {
+      title: '首页'
+    }
   },{
     path: '/404',
     name: 'Error',
