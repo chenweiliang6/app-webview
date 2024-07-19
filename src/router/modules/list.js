@@ -9,6 +9,13 @@
 export const listRouter = [
   {
     path: '/',
+    redirect: '/home',
+    meta: {
+      title: '首页',
+    }
+  },
+  {
+    path: '/',
     name: 'home',
     component: () => import('../../views/home/index.vue'),
     meta: {
