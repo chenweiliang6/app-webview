@@ -5,7 +5,7 @@
       <div class="history-container-left">
         <div class="history-container-left__red">
           <div class="red-border">
-            <img src="../../../assets/images/4.png">
+            <img src="../../../../assets/images/4.png">
           </div>
           <div class="red-arrow"></div>
         </div>

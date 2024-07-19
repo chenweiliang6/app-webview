@@ -1,11 +1,11 @@
 <template>
   <div class="show">
     <div class="show-left">
-      <img src="../../../assets/images/8.png">
+      <img src="../../../../assets/images/8.png">
       <span>连续三年被国务院国资委评为中央企业年度经营业绩考核A级</span>
     </div>
     <div class="show-right">
-      <img src="../../../assets/images/9.png">
+      <img src="../../../../assets/images/9.png">
       <span>连续两年成为“中国地区最受赞赏公司”的五家企业之一</span>
     </div>
   </div>

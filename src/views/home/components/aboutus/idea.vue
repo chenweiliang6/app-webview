@@ -8,10 +8,10 @@
       </div>
       <div class="idea-container-center">
         <div class="idea-container-center__item">
-          <img src="../../../assets/images/diannao.png">
+          <img src="../../../../assets/images/diannao.png">
         </div>
         <div class="idea-container-center__item">
-          <img src="../../../assets/images/tongxunlu.png">
+          <img src="../../../../assets/images/tongxunlu.png">
         </div>
       </div>
       <div class="idea-container-right">

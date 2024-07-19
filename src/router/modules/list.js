@@ -12,8 +12,26 @@ export const listRouter = [
     name: 'home',
     component: () => import('../../views/home/index.vue'),
     meta: {
-      title: '首页'
-    }
+      title: '官网'
+    },
+    children: [
+      {
+        path: 'home',
+        name: 'Home',
+        component: () => import('../../views/home/home.vue'),
+        meta: {
+          title: '首页',
+        },
+      },
+      {
+        path: 'aboutus',
+        name: 'Aboutus',
+        component: () => import('../../views/home/aboutus.vue'),
+        meta: {
+          title: '关于我们',
+        },
+      },
+    ]
   },
   {
     path: '/home2',
@@ -22,18 +40,18 @@ export const listRouter = [
     meta: {
       title: '首页'
     }
-  },{
+  }, {
     path: '/404',
     name: 'Error',
     component: () => import('../../views/error/404.vue'),
     meta: {
       title: '404'
     }
-  },{
+  }, {
     path: "/:pathMatch(.*)*",
     name: "notFound",
     redirect: {
-      path:'/404'
+      path: '/404'
     }
   }
 ]

@@ -15,7 +15,7 @@
       </div>
     </div>
     <div class="construct-right">
-      <img src="../../../assets/images/10.png">
+      <img src="../../../../assets/images/10.png">
     </div>
   </div>
 </template>

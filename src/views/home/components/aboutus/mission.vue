@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="mission-right">
-      <img src="../../../assets/images/11.png">
+      <img src="../../../../assets/images/11.png">
     </div>
   </div>
 </template>

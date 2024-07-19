@@ -1,7 +1,7 @@
 <template>
   <div class="business">
     <div class="business-left">
-      <img src="../../../assets/images/5.png">
+      <img src="../../../../assets/images/5.png">
     </div>
     <div class="business-right">
       <div class="business-right-title">公司业务</div>
@@ -22,8 +22,8 @@
 
 <script setup>
 import { ref } from 'vue';
-import icon1 from '../../../assets/images/6.png'
-import icon2 from '../../../assets/images/7.png'
+import icon1 from '../../../../assets/images/6.png'
+import icon2 from '../../../../assets/images/7.png'
 
 const list = ref([
   { icon: icon1, title: '建筑业', text: '拥有从产品技术研发、勘察设计、工程承包、地产开发、设备制造、物业管理等完整的建筑产品产业链条' },

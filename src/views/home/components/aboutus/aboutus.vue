@@ -2,7 +2,7 @@
   <div class="aboutus">
     <div class="aboutus-left">
       <div class="aboutus-left-title">
-        <img src="../../../assets/images/1.png">
+        <img src="../../../../assets/images/1.png">
         <div class="aboutus-left-title__text">
           <span>中建民筑</span>
           <span>ZHONG JIAN MIN ZHU</span>
@@ -17,7 +17,7 @@
       </div>
     </div>
     <div class="aboutus-right">
-      <img src="../../../assets/images/2.png">
+      <img src="../../../../assets/images/2.png">
     </div>
   </div>
 </template>
