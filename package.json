@@ -16,6 +16,7 @@
     "postcss-pxtorem": "^6.0.0",
     "vant": "^4.8.2",
     "vue": "^3.2.13",
+    "vue_js_h5": "file:",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
