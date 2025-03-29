@@ -22,7 +22,7 @@ import { vant } from './config/vantConfig';
 
 // 2. 引入组件样式
 import 'vant/lib/index.css';
-import { Popover, Icon, Sticky, Popup, Collapse, CollapseItem, Cell, CellGroup, Toast } from 'vant';
+import { Popover, Icon,Sticky } from 'vant';
 
 // // pinia以及数据持久化
 // import { createPinia } from 'pinia'
@@ -34,8 +34,19 @@ import { Popover, Icon, Sticky, Popup, Collapse, CollapseItem, Cell, CellGroup, 
 const app = createApp(App);
 vant(app);
 // app.use(piain);
-app.use(Popover).use(Icon).use(Sticky).use(Popup).use(Collapse).use(CollapseItem).use(Cell).use(CellGroup).use(Toast);
+app.use(Popover).use(Icon).use(Sticky);
 app.use(router);
 app.mount('#app');
 
-console.log('项目开发，请联系WX：c1075005842，请说明来意哦')
+console.log(
+  [
+    "%c",
+    "-----------------------------",
+    "-                           -",
+    "-     admin_vue3_ts_pc      -",
+    "-     WX：laowang66608      -",
+    "-                           -",
+    "-----------------------------",
+  ].join("\n"),
+  "color:#FD802E;font-size:16px"
+)
