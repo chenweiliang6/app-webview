@@ -12,7 +12,7 @@ export const listRouter = [
     name: 'home',
     component: () => import('../../views/home/question.vue'),
     meta: {
-      title: '首页'
+      title: '问题与反馈'
     }
   },{
     path: '/404',

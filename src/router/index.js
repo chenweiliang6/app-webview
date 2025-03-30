@@ -18,7 +18,7 @@ const router = createRouter({
  * */
 router.beforeEach((to, from, next) => {
   // 启动加载条
-  // NProgress.start()
+  NProgress.start()
   // 更改title名称
   to.meta.title && (document.title = to.meta.title)
   next()
@@ -28,14 +28,14 @@ router.beforeEach((to, from, next) => {
  * @description 路由跳转结束
  * */
 router.afterEach(() => {
-	// NProgress.done();
+	NProgress.done();
 });
 
 /**
  * @description 路由跳转错误
  * */
 router.onError(error => {
-	// NProgress.done();
+	NProgress.done();
   console.warn("路由错误", error.message);
 });
 

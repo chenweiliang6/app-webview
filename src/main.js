@@ -22,7 +22,7 @@ import { vant } from './config/vantConfig';
 
 // 2. 引入组件样式
 import 'vant/lib/index.css';
-import { Popover, Icon,Sticky } from 'vant';
+import { Popover, Icon, Sticky, Collapse, CollapseItem } from 'vant';
 
 // // pinia以及数据持久化
 // import { createPinia } from 'pinia'
@@ -34,7 +34,7 @@ import { Popover, Icon,Sticky } from 'vant';
 const app = createApp(App);
 vant(app);
 // app.use(piain);
-app.use(Popover).use(Icon).use(Sticky);
+app.use(Popover).use(Icon).use(Sticky).use(Collapse).use(CollapseItem);
 app.use(router);
 app.mount('#app');
 

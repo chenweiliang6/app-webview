@@ -21,7 +21,7 @@ const timeStamp= new Date().getTime()
 module.exports = defineConfig({
   transpileDependencies: true,
   // 部署应用包时的基本路径
-  publicPath: process.env.NODE_ENV === 'production' ? '/zjmz' : '/zjmz',
+  publicPath: process.env.NODE_ENV === 'production' ? '/app-webview' : '/app-webview',
   // 解决vue3搭建项目时 eslint 警告处理
   lintOnSave: false,
   // 如果你不需要生产环境的 source map，可以将其设置为 false 以加速生产环境构建
@@ -52,7 +52,7 @@ module.exports = defineConfig({
         .set('@utils', resolve('src/utils'))
         .set('@api', resolve('src/api'))
     config.plugin('html').tap(args => {
-      args[0].title = '中建民筑'
+      args[0].title = '问题与反馈'
       return args
     })
   },
