@@ -52,7 +52,7 @@ module.exports = defineConfig({
         .set('@utils', resolve('src/utils'))
         .set('@api', resolve('src/api'))
     config.plugin('html').tap(args => {
-      args[0].title = '问题与反馈'
+      args[0].title = ''
       return args
     })
   },

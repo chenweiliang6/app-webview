@@ -8,11 +8,11 @@
  */
 export const listRouter = [
   {
-    path: '/',
+    path: '/question',
     name: 'home',
     component: () => import('../../views/home/question.vue'),
     meta: {
-      title: '问题与反馈'
+      title: ''
     }
   },
   {

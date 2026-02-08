@@ -1,5 +1,5 @@
 //  项目名称
-export const APP_NAME = "问题与反馈";
+export const APP_NAME = "";
 // 首页地址（默认）
 export const HOME_URL = "/";
 
