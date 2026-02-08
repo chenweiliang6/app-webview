@@ -14,18 +14,28 @@ export const listRouter = [
     meta: {
       title: '问题与反馈'
     }
-  },{
+  },
+  {
+    path: '/download-center',
+    name: 'DownloadCenter',
+    component: () => import('../../views/home/download-center.vue'),
+    meta: {
+      title: '下载中心'
+    }
+  },
+  {
     path: '/404',
     name: 'Error',
     component: () => import('../../views/error/404.vue'),
     meta: {
       title: '404'
     }
-  },{
+  },
+  {
     path: "/:pathMatch(.*)*",
     name: "notFound",
     redirect: {
-      path:'/404'
+      path: '/404'
     }
   }
 ]
