@@ -70,7 +70,12 @@ const downloadList = [
 ]
 
 const handelDownload = (item) => {
-  window.open(item.downloadUrl, '_blank', 'noopener')
+  const ua = navigator.userAgent.toLowerCase()
+  if (ua.includes('uniapp') || ua.includes('uni-app')) {
+    plus.runtime.openURL(item.downloadUrl, (error) => {})
+  } else {
+    window.open(item.downloadUrl, '_blank', 'noopener')
+  }
 }
 </script>
 

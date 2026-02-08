@@ -8,7 +8,6 @@
 <script setup>
 import downloadPc from './components/download-pc.vue'
 import downloadMobile from './components/download-mobile.vue'
-
 const isMobileDevice = () => {
   // 防止在服务端运行时出错
   if (typeof window === 'undefined') return false
