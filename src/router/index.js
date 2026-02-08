@@ -7,7 +7,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHashHistory('/app-webview/'),
   routes,
   strict: false,
   scrollBehavior: () => ({ left: 0, top: 0 })
