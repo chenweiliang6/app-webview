@@ -8,19 +8,51 @@
  */
 export const listRouter = [
   {
-    path: '/question',
-    name: 'home',
-    component: () => import('../../views/home/question.vue'),
+    path: '/',
+    name: 'Home',
+    component: () => import('../../views/home/index.vue'),
     meta: {
       title: ''
     }
   },
   {
+    path: '/question',
+    name: 'Question',
+    component: () => import('../../views/question/question.vue'),
+    meta: {
+      title: '问题与反馈'
+    }
+  },
+  {
     path: '/download-center',
     name: 'DownloadCenter',
-    component: () => import('../../views/home/download-center.vue'),
+    component: () => import('../../views/download/index.vue'),
     meta: {
       title: '下载中心'
+    }
+  },
+  {
+    path: '/pathDetail',
+    name: 'PathDetail',
+    component: () => import('../../views/question/path-detail.vue'),
+    meta: {
+      title: '如何设置文件路径？'
+    }
+  },
+  {
+    path: '/howWatch',
+    name: 'HowWatch',
+    component: () => import('../../views/question/how-watch.vue'),
+    meta: {
+      title: '如何不在海报墙观看视频？'
+    }
+  },
+  {
+    path: '/qqTalk',
+    name: 'QqTalk',
+    component: () => import('../../views/home/qq-talk.vue'),
+    meta: {
+      title: 'QQ交流'
     }
   },
   {
@@ -32,8 +64,8 @@ export const listRouter = [
     }
   },
   {
-    path: "/:pathMatch(.*)*",
-    name: "notFound",
+    path: '/:pathMatch(.*)*',
+    name: 'notFound',
     redirect: {
       path: '/404'
     }

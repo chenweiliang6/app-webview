@@ -15,9 +15,17 @@ const isMobileDevice = () => {
   const userAgent = navigator.userAgent || navigator.vendor || window.opera
 
   // 常见移动设备关键词
-  const mobileKeywords = [/Android/i, /webOS/i, /iPhone/i, /iPad/i, /iPod/i, /BlackBerry/i, /Windows Phone/i]
+  const mobileKeywords = [
+    /Android/i,
+    /webOS/i,
+    /iPhone/i,
+    /iPad/i,
+    /iPod/i,
+    /BlackBerry/i,
+    /Windows Phone/i
+  ]
 
-  return mobileKeywords.some(pattern => pattern.test(userAgent))
+  return mobileKeywords.some((pattern) => pattern.test(userAgent))
 }
 </script>
 
