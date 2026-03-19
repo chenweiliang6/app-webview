@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ "master" ]  # 监听main分支推送
+    branches: [ "develop" ]  # 监听main分支推送
   workflow_dispatch:      # 允许手动触发
 
 permissions:
