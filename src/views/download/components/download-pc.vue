@@ -151,7 +151,7 @@ const list = [
           {
             name: '下载Windows端',
             downloadUrl:
-              'https://gitee.com/CWLcwl0219/William-Player/releases/download/latest/app-pc.exe',
+              'https://gitee.com/waylon-chen/William-Player/releases/download/latest/app-pc.exe',
             icon: windowsIcon
           }
         ]
@@ -176,7 +176,7 @@ const list = [
           {
             name: '下载TV端',
             downloadUrl:
-              'https://gitee.com/CWLcwl0219/William-Player/releases/download/latest/app-tv.apk',
+              'https://gitee.com/waylon-chen/William-Player/releases/download/latest/app-tv.apk',
             icon: androidTv
           }
         ]

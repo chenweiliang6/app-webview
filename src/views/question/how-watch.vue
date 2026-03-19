@@ -13,10 +13,10 @@
         <img
           @click="
             previewImage(
-              'https://gitee.com/CWLcwl0219/drawing-bed/raw/master/img/shili4.jpg'
+              'https://gitee.com/waylon-chen/image-hosting/raw/master/img/shili4.jpg'
             )
           "
-          src="https://gitee.com/CWLcwl0219/drawing-bed/raw/master/img/shili4.jpg"
+          src="https://gitee.com/waylon-chen/image-hosting/raw/master/img/shili4.jpg"
         />
       </div>
     </div>

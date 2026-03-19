@@ -53,19 +53,19 @@ const downloadList = [
     title: 'Android',
     icon: 'https://filmly.res.netease.com/website/img/device-Android_7d572535.png',
     downloadUrl:
-      'https://gitee.com/CWLcwl0219/William-Player/releases/download/latest/app-mobile.apk'
+      'https://gitee.com/waylon-chen/William-Player/releases/download/latest/app-mobile.apk'
   },
   {
     title: 'Android TV',
     icon: 'https://filmly.res.netease.com/website/img/device-AndroidTV_9afff6f0.png',
     downloadUrl:
-      'https://gitee.com/CWLcwl0219/William-Player/releases/download/latest/app-tv.apk'
+      'https://gitee.com/waylon-chen/William-Player/releases/download/latest/app-tv.apk'
   },
   {
     title: 'Windows',
     icon: 'https://filmly.res.netease.com/website/img/device-Windows_70e73d9c.png',
     downloadUrl:
-      'https://gitee.com/CWLcwl0219/William-Player/releases/download/latest/app-pc.exe'
+      'https://gitee.com/waylon-chen/William-Player/releases/download/latest/app-pc.exe'
   }
 ]
 

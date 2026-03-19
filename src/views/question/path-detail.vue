@@ -13,26 +13,26 @@
         <img
           @click="
             previewImage(
-              'https://gitee.com/CWLcwl0219/drawing-bed/raw/master/img/1746958972478.png'
+              'https://gitee.com/waylon-chen/image-hosting/raw/master/img/1746958972478.png'
             )
           "
-          src="https://gitee.com/CWLcwl0219/drawing-bed/raw/master/img/1746958972478.png"
+          src="https://gitee.com/waylon-chen/image-hosting/raw/master/img/1746958972478.png"
         />
         <img
           @click="
             previewImage(
-              'https://gitee.com/CWLcwl0219/drawing-bed/raw/master/img/1746959293712.jpg'
+              'https://gitee.com/waylon-chen/image-hosting/raw/master/img/1746959293712.jpg'
             )
           "
-          src="https://gitee.com/CWLcwl0219/drawing-bed/raw/master/img/1746959293712.jpg"
+          src="https://gitee.com/waylon-chen/image-hosting/raw/master/img/1746959293712.jpg"
         />
         <img
           @click="
             previewImage(
-              'https://gitee.com/CWLcwl0219/drawing-bed/raw/master/img/1746959527870.jpg'
+              'https://gitee.com/waylon-chen/image-hosting/raw/master/img/1746959527870.jpg'
             )
           "
-          src="https://gitee.com/CWLcwl0219/drawing-bed/raw/master/img/1746959527870.jpg"
+          src="https://gitee.com/waylon-chen/image-hosting/raw/master/img/1746959527870.jpg"
         />
       </div>
     </div>
